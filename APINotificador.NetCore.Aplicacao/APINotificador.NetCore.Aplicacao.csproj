@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APINotificador.NetCore.Dominio\APINotificador.NetCore.Dominio.csproj" />
+    <ProjectReference Include="..\APINotificador.NetCore.Infra.Data.Core\APINotificador.NetCore.Infra.Data.Core.csproj" />
+  </ItemGroup>
+
+</Project>

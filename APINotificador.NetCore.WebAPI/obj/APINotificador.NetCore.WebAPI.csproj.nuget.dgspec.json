@@ -1,0 +1,530 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.WebAPI\\APINotificador.NetCore.WebAPI.csproj": {}
+  },
+  "projects": {
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj",
+        "projectName": "APINotificador.NetCore.Aplicacao",
+        "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\Deivide\\.nuget\\packages\\",
+        "outputPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj"
+              },
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio.Core\\APINotificador.NetCore.Dominio.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio.Core\\APINotificador.NetCore.Dominio.Core.csproj",
+        "projectName": "APINotificador.NetCore.Dominio.Core",
+        "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio.Core\\APINotificador.NetCore.Dominio.Core.csproj",
+        "packagesPath": "C:\\Users\\Deivide\\.nuget\\packages\\",
+        "outputPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj",
+        "projectName": "APINotificador.NetCore.Dominio",
+        "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Deivide\\.nuget\\packages\\",
+        "outputPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio.Core\\APINotificador.NetCore.Dominio.Core.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio.Core\\APINotificador.NetCore.Dominio.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.CrossCutting.IoC\\APINotificador.NetCore.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.CrossCutting.IoC\\APINotificador.NetCore.Infra.CrossCutting.IoC.csproj",
+        "projectName": "APINotificador.NetCore.Infra.CrossCutting.IoC",
+        "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.CrossCutting.IoC\\APINotificador.NetCore.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Deivide\\.nuget\\packages\\",
+        "outputPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj"
+              },
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj",
+        "projectName": "APINotificador.NetCore.Infra.Data.Core",
+        "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\APINotificador.NetCore.Infra.Data.Core.csproj",
+        "packagesPath": "C:\\Users\\Deivide\\.nuget\\packages\\",
+        "outputPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.Data.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.WebAPI\\APINotificador.NetCore.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.WebAPI\\APINotificador.NetCore.WebAPI.csproj",
+        "projectName": "APINotificador.NetCore.WebAPI",
+        "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.WebAPI\\APINotificador.NetCore.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Deivide\\.nuget\\packages\\",
+        "outputPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Aplicacao\\APINotificador.NetCore.Aplicacao.csproj"
+              },
+              "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.CrossCutting.IoC\\APINotificador.NetCore.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Infra.CrossCutting.IoC\\APINotificador.NetCore.Infra.CrossCutting.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "ServiceStack.Text": {
+              "target": "Package",
+              "version": "[5.13.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

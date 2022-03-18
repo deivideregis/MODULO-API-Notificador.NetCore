@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Servicos", "2 - Servicos", "{9343C069-DACE-407F-99AE-4F1BD0412DC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Aplicacao", "3 - Aplicacao", "{3DC86A8F-E790-4796-8445-DE2E41C7B976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Dominio", "4 - Dominio", "{8A442476-DD3A-44CC-B5E3-106867835221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{A0F1E570-47FA-4B1D-AEB2-3B077F55ADDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Documentacao", "6 - Documentacao", "{3FD9FA00-220F-46B8-B3C3-0B2ECB2C05F7}"
+	ProjectSection(SolutionItems) = preProject
+		Documentacao.txt = Documentacao.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINotificador.NetCore.Dominio", "APINotificador.NetCore.Dominio\APINotificador.NetCore.Dominio.csproj", "{30A9BDB4-C7F9-4165-8377-BB4B2BFDA9BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINotificador.NetCore.Dominio.Core", "APINotificador.NetCore.Dominio.Core\APINotificador.NetCore.Dominio.Core.csproj", "{E3E9C2B6-763B-458E-9A02-B083865C008C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINotificador.NetCore.Aplicacao", "APINotificador.NetCore.Aplicacao\APINotificador.NetCore.Aplicacao.csproj", "{B6CE8E21-534F-414D-BE4E-B7EBAA467489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-1 - Data", "5-1 - Data", "{4E02D74D-D504-4908-B776-3D9A1F816B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-2 - CrossCutting", "5-2 - CrossCutting", "{17A2E4D6-9436-4E05-8104-ECDCA1E51F07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINotificador.NetCore.Infra.Data.Core", "APINotificador.NetCore.Infra.Data.Core\APINotificador.NetCore.Infra.Data.Core.csproj", "{966193F1-1565-4641-AC9C-9B95B25AF05F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINotificador.NetCore.Infra.CrossCutting.IoC", "APINotificador.NetCore.Infra.CrossCutting.IoC\APINotificador.NetCore.Infra.CrossCutting.IoC.csproj", "{9B3201A3-B9AE-4AAC-A00D-0B2A21CC00D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APINotificador.NetCore.WebAPI", "APINotificador.NetCore.WebAPI\APINotificador.NetCore.WebAPI.csproj", "{4FD105C4-58AC-4F8D-84F6-EE2F9DEC6CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A9BDB4-C7F9-4165-8377-BB4B2BFDA9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A9BDB4-C7F9-4165-8377-BB4B2BFDA9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A9BDB4-C7F9-4165-8377-BB4B2BFDA9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A9BDB4-C7F9-4165-8377-BB4B2BFDA9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E9C2B6-763B-458E-9A02-B083865C008C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E9C2B6-763B-458E-9A02-B083865C008C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E9C2B6-763B-458E-9A02-B083865C008C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E9C2B6-763B-458E-9A02-B083865C008C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6CE8E21-534F-414D-BE4E-B7EBAA467489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CE8E21-534F-414D-BE4E-B7EBAA467489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CE8E21-534F-414D-BE4E-B7EBAA467489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CE8E21-534F-414D-BE4E-B7EBAA467489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966193F1-1565-4641-AC9C-9B95B25AF05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966193F1-1565-4641-AC9C-9B95B25AF05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966193F1-1565-4641-AC9C-9B95B25AF05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966193F1-1565-4641-AC9C-9B95B25AF05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3201A3-B9AE-4AAC-A00D-0B2A21CC00D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3201A3-B9AE-4AAC-A00D-0B2A21CC00D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3201A3-B9AE-4AAC-A00D-0B2A21CC00D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3201A3-B9AE-4AAC-A00D-0B2A21CC00D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD105C4-58AC-4F8D-84F6-EE2F9DEC6CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD105C4-58AC-4F8D-84F6-EE2F9DEC6CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD105C4-58AC-4F8D-84F6-EE2F9DEC6CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD105C4-58AC-4F8D-84F6-EE2F9DEC6CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30A9BDB4-C7F9-4165-8377-BB4B2BFDA9BE} = {8A442476-DD3A-44CC-B5E3-106867835221}
+		{E3E9C2B6-763B-458E-9A02-B083865C008C} = {8A442476-DD3A-44CC-B5E3-106867835221}
+		{B6CE8E21-534F-414D-BE4E-B7EBAA467489} = {3DC86A8F-E790-4796-8445-DE2E41C7B976}
+		{4E02D74D-D504-4908-B776-3D9A1F816B34} = {A0F1E570-47FA-4B1D-AEB2-3B077F55ADDE}
+		{17A2E4D6-9436-4E05-8104-ECDCA1E51F07} = {A0F1E570-47FA-4B1D-AEB2-3B077F55ADDE}
+		{966193F1-1565-4641-AC9C-9B95B25AF05F} = {4E02D74D-D504-4908-B776-3D9A1F816B34}
+		{9B3201A3-B9AE-4AAC-A00D-0B2A21CC00D0} = {17A2E4D6-9436-4E05-8104-ECDCA1E51F07}
+		{4FD105C4-58AC-4F8D-84F6-EE2F9DEC6CC6} = {9343C069-DACE-407F-99AE-4F1BD0412DC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD3827E9-5F67-403E-9F88-7A6C28D98463}
+	EndGlobalSection
+EndGlobal

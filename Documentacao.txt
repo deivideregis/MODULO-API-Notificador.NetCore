@@ -1,0 +1,55 @@
+dotnet tool install --global dotnet-ef --version 5.0.5
+
+COMANDOS PARA GERAR MIGRAÇÃO
+
+Add-Migration Inicial -StartupProject APINotificador.NetCore.WebAPI -Project APINotificador.NetCore.Infra.Data.Core -Context ContextBase -Verbose
+update-database -StartupProject APINotificador.NetCore.WebAPI -Project APINotificador.NetCore.Infra.Data.Core -Context ContextBase -Verbose
+
+### Compilar para publicar ###########################################################################################################################################
+
+G:\PROJETO\API\APINotificador\APINotificadorEmailSMS\APINotificador.NetCore.WebAPI\bin\Debug\net5.0\linux-x64\publish
+
+dotnet publish --configuration Release --runtime linux-x64
+
+### Gerar scripts ####################################################################################################################################################
+
+Script-Migration - Context ContextBase
+
+### Sequencia de implementacao: ######################################################################################################################################
+
+ 1)APINotificador.NetCore.Dominio
+ 2)APINotificador.NetCore.Aplicacao.Validation
+ 3)APINotificador.NetCore.Infra.Data.Core.TypeConfiguration
+ 4)APINotificador.NetCore.Infra.Data.Repository.Interfaces
+ 5)APINotificador.NetCore.Infra.Data.Core.Context
+ 6)APINotificador.NetCore.Infra.Data.Core.Repository
+ 7)APINotificador.NetCore.Infra.CrossCutting.IoC.NativeInjectorBootStrapper
+ 8)APINotificador.NetCore..Aplicacao.ViewModels
+ 9)APINotificador.NetCore.Aplicacao.Interfaces
+10)APINotificador.NetCore.Aplicacao.Services
+11)APINotificador.NetCore.Infra.CrossCutting.IoC.NativeInjectorBootStrapper (adicionar service caso houver)
+11)APINotificador.NetCore.Aplicacao.AutoMapper.DomainToViewModelMappingProfile
+12)APINotificador.NetCore.WebAPI.Vx.Controllers
+
+### As tabelas #####################################################################################################################################################
+
+--armazena históricos de atualização de banco de dados
+select * from __efmigrationshistory order by DataCadastro;
+
+--registra cadastro de contabilidade responsável pela empresa
+select * FROM contabilidade order by DataCadastro;
+
+
+### Explicação como gerar tabelas no banco de dados ################################################################################################################
+
+COMANDOS PARA GERAR MIGRAÇÃO
+
+-----gerar as tabelas Notificador---- são as tabelas para armazenar as funcionalidades da API:
+Add-Migration 'Nome para armazenar no históricos' -StartupProject 'Nome da solução do projeto' -Project 'Nome do projeto que está context' -Context 'Nome do context' - Verbose
+Exemplo:
+Add-Migration Inicial -StartupProject APINotificador.NetCore.WebAPI -Project APINotificador.NetCore.Infra.Data.Core -Context ContextBase -Verbose
+update-database -StartupProject 'Nome da solução do projeto' -Project 'Nome do projeto que está context' -Context 'Nome do context' - Verbose
+update-database -StartupProject APINotificador.NetCore.WebAPI -Project APINotificador.NetCore.Infra.Data.Core -Context ContextBase -Verbose
+
+---tabela onde fica armazenado o históricos realizados na operação Add-Migration e update-database
+select * from __efmigrationshistory;

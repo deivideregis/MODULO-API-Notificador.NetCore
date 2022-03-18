@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APINotificador.NetCore.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes.RegistrarRemetenteController.RegistrarNovoRemetente(APINotificador.NetCore.Aplicacao.ViewModels.Remetentes.RemetenteCorporativaAdicionarViewModel)">
+             <summary>
+             Cadastra novo remetente.
+             </summary>
+             <param name="viewmodel"></param>
+             <returns>Resultado da operação.</returns>
+             <remarks>
+             Exemplo de requisição
+             
+                 POST /api/v1/remetente/novo-remetente
+                 {
+                    "PortaRemetente": "587",
+                    "SslRemetente": "true",
+                    "EUsarCredencial": "true",
+                    "ServidorRemetente": "smtp.gmail.com",
+                    "NomeCorporativa": "API Logs",
+                    "EmailCorporativa": "deividsantos@gmail.com",
+                    "SenhaCorporativa": "@Asdf1234"
+                 }
+                 
+                 Campos obrigatórios:
+                    Descricao: O tamanho do campo Descricao deve ser de 3 a 50 caracteres
+            
+              Permissão: aberto
+              
+             </remarks>
+             <response code="201">Novo registro de remetente corporativa criado.</response>
+             <response code="400">Não foi possível criar o registro de remetente corporativa.</response>
+        </member>
+        <member name="M:APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes.RemetenteController.GetPorTodosOsFiltros(System.Nullable{System.Guid},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            Pesquisar lista de remetente
+            </summary>
+            <param name="id">Id (guid).</param>
+            <param name="nomeCorporativa">Nome do remetente corporativa.</param>
+            <param name="emailCorporativa">E-mail do remetente corporativa.</param>
+            <param name="ativo">Status do registro Ativo ou Desativado.</param>
+            <param name="pagina">Página da lista de item</param>
+            <param name="tamanhoPagina">Total de itens por página</param>
+            <param name="ordem">Campo para ordenação: Descricao e DataCadastro. Adicione DESC após o nome do campo para ordem inversa.</param>
+            <returns>Lista paginada de Empresas</returns>
+             <remarks>
+                
+             Permissão: aberta
+            
+             </remarks>
+            <response code="200">Registro de remetente corporativa.</response>
+            <response code="400">Não foi possível localizar o registro de remetente corporativa.</response>
+        </member>
+        <member name="M:APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes.RemetenteController.Get(System.Guid)">
+            <summary>
+            Retorna registro de remetente por Id (guid).
+            </summary>
+            <param name="id">Id (guid) do remetente corporativa.</param>
+            <returns>Registro de remetente corporativa.</returns>
+             <remarks>
+                
+             Permissão: aberta
+            
+             </remarks>
+            <response code="200">Registro de remetente corporativa ao Id.</response>
+            <response code="400">Não foi possível localizar o registro de remetente corporativa.</response>
+        </member>
+        <member name="M:APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes.RemetenteController.AtualizarRemetente(System.Guid,APINotificador.NetCore.Aplicacao.ViewModels.Remetentes.RemetenteCorporativaAtualizarViewModel)">
+            <summary>
+            Atualiza registro de remetente corporativa.
+            </summary>
+            <param name="id">Id (guid) do registro de remetente corporativa.</param>
+            <param name="viewmodel">View Model de remetente corporativa.</param>
+            <returns>Registro configuração de remetente corporativa atualizado</returns>
+            <remarks>
+            Exemplo de requisição
+            
+                PUT /api/v1/remetente/atualizar-remetente/00000000-0000-0000-0000-000000000000
+                {
+                   "PortaRemetente": "587"
+                   "SslRemetente": "true"
+                   "EUsarCredencial": "true"
+                   "ServidorRemetente": "smtp.gmail.com"
+                   "NomeCorporativa": "API Logs"
+                   "EmailCorporativa": "deividsantos@gmail.com"
+                   "SenhaCorporativa": "@Asdf1234"
+                }
+                
+                Campos obrigatórios:
+                   Id, PortaRemetente, SslRemetente, EUsarCredencial, ServidorRemetente, NomeCorporativa, EmailCorporativa e SenhaCorporativa
+                
+             Permissão: Administrador
+            
+             </remarks>
+            <response code="200">Registro de Model de remetente corporativa.</response>
+            <response code="400">Não foi possível atualizar o registro de remetente corporativa.</response>
+        </member>
+        <member name="M:APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes.RemetenteController.RemoverRemetente(System.Guid)">
+            <summary>
+            Exclui registro de remetente.
+            </summary>
+            <param name="id">Id (guid) do registro de remetente corporativa.</param>
+            <returns>Retorno do sucesso da operação.</returns>
+             <remarks>
+            Exemplo de requisição
+             
+                DELETE /api/v1/remetente/remover-remetente/00000000-0000-0000-0000-000000000000
+                {
+                }
+                
+             Permissão: aberta
+            
+             </remarks>
+            <response code="200">Registro excluído com sucesso.</response>
+            <response code="400">Não foi possível excluir o registro.</response>
+        </member>
+    </members>
+</doc>

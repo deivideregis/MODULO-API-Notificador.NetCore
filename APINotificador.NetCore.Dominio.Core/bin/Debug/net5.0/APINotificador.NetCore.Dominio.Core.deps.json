@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "APINotificador.NetCore.Dominio.Core/1.0.0": {
+        "runtime": {
+          "APINotificador.NetCore.Dominio.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "APINotificador.NetCore.Dominio.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
