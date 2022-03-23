@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gPKtUP7K58skCZxlWZkXoDyXs5++lyIxIEnhc6OOX7wBNKwnA8NKnAw05suybJyEqxf+Tc1I5NKOM+Hwb1rQHw==",
+  "dgSpecHash": "NmWqsRD7vW5T5anP0xKXmPPIRwZc32bY/yCng86LXtdY0L9k2ZcMf3gM81GBz7GHUKYYUjyws0tBoK8q2ZGNGw==",
   "success": true,
   "projectFilePath": "G:\\DRIVE\\PROJETO_OFICIAL\\APINotificador\\APINotificador.NetCore.Dominio\\APINotificador.NetCore.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Deivide\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.15\\microsoft.aspnetcore.http.features.5.0.15.nupkg.sha512",
+    "C:\\Users\\Deivide\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Deivide\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

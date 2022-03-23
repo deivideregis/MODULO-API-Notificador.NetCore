@@ -24,7 +24,6 @@ G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug
 G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\APINotificador.NetCore.Dominio.AssemblyInfoInputs.cache
 G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\APINotificador.NetCore.Dominio.AssemblyInfo.cs
 G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\APINotificador.NetCore.Dominio.csproj.CoreCompileInputs.cache
-G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\APINotificador.NetCore.Dominio.csproj.CopyComplete
 G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\APINotificador.NetCore.Dominio.dll
 G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\ref\APINotificador.NetCore.Dominio.dll
 G:\DRIVE\PROJETO_OFICIAL\APINotificador\APINotificador.NetCore.Dominio\obj\Debug\net5.0\APINotificador.NetCore.Dominio.pdb

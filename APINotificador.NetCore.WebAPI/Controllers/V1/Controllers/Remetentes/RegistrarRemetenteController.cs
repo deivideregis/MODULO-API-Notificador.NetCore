@@ -71,7 +71,7 @@ namespace APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes
         {
             if (viewmodel == null)
             {
-                NotificarErro("Informações do remetente não pode ser vazio.");
+                NotificarErro("Informações do remetente json inválida.");
                 return CustomResponse(viewmodel);
             }
 

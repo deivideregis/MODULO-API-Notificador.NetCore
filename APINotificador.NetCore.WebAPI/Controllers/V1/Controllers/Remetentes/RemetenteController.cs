@@ -154,9 +154,9 @@ namespace APINotificador.NetCore.WebAPI.Controllers.V1.Controllers.Remetentes
 
             if (EAtualizado)
             {
-                var modelsretorno = _repository.ObterPorId(viewmodel.Id);
-                var viewModelsRetorno = _mapper.Map<RemetenteCorporativaExibicaoViewModel>(modelsretorno);
-                return CustomResponse(viewModelsRetorno);
+                var model = _mapper.Map<RemetenteCorporativaExibicaoViewModel>(await _repository.ObterPorId(id));
+                if (model == null) return NotFound();
+                return CustomResponse(model);
             }
 
             return CustomResponse();

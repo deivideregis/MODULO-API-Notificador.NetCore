@@ -175,6 +175,11 @@ namespace APINotificador.NetCore.Infra.Data.Core.Repository.Remetentes
             return Db.RemetenteCorporativas.Where(p => p.EmailCorporativa == EmailCorporativa && p.Ativo == true).FirstOrDefault();
         }
 
+        public RemetenteCorporativa RetornaRemetentePorMac(string MAC)
+        {
+            return Db.RemetenteCorporativas.Where(p => p.MACCorporativa == MAC && p.Ativo == true).FirstOrDefault();
+        }
+
         public async Task AtualizarRemetente(RemetenteCorporativa model)
         {
             Db.RemetenteCorporativas.Update(model);

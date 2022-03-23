@@ -87,6 +87,9 @@ namespace APINotificador.NetCore.Aplicacao.Services.Remetentes
             RemetenteCorporativa model = _repository.RetornaRemetentePorId(viewmodel.Id);
 
             bool temAtualizacao = MapearAtualizacoesRemetente(model, viewmodel);
+
+            model.SenhaCorporativa = _repository.CriptografarSenha(viewmodel.SenhaCorporativa);
+
             if (!temAtualizacao)
             {
                 Notificar("Não há alterações no registro de {0}.", "Remetente");

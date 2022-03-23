@@ -17,9 +17,9 @@ namespace APINotificador.NetCore.WebAPI.Configuration
                 s.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "APINotificador API",
+                    Title = "Módulo - API notificador",
                     Description = "Documentação da API do sistema APINotificador",
-                    Contact = new OpenApiContact { Name = "APINotificador.NetCore 2022", Email = "deividsantosd@gmail.com", Url = new Uri("https://github.com/deivideregis") }
+                    Contact = new OpenApiContact { Name = "https://github.com/deivideregis", Email = "deividsantos@gmail.com", Url = new Uri("https://www.linkedin.com/in/deivide-santos/") }
                 });                
             });
         }

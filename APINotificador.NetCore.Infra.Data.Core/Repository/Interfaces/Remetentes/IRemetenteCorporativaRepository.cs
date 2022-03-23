@@ -12,6 +12,8 @@ namespace APINotificador.NetCore.Infra.Data.Core.Repository.Interfaces.Remetente
 
         RemetenteCorporativa RetornaRemetentePorId(string EmailCorporativa);
 
+        RemetenteCorporativa RetornaRemetentePorMac(string MAC);
+
         Task AtualizarRemetente(RemetenteCorporativa model);
 
         bool DominioExistente(string EmailCorporativa);
